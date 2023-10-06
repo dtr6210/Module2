@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <header>
       <nav>
@@ -10,6 +9,52 @@
       </nav>
     </header>
     <main>
+      <!--Form-->
+      <form method="POST" action="http://localhost:3000/profile">
+        <div>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" />
+        </div>
+        <div>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" />
+        </div>
+        <!-- Radio Button -->
+        <div>
+          <h3>Favorite Team</h3>
+          <input type="Radio" id="tigers" name="teams" value="Tigers" />
+          <label for="tigers">Tigers</label>
+          <input type="Radio" id="saints" name="teams" value="Saints" />
+          <label for="saints">Saints</label>
+          <input type="Radio" id="cajuns" name="teams" value="Cajuns" />
+          <label for="cajuns">Cajuns</label>
+        </div>
+        <!-- Checkbox -->
+        <div>
+          <h3>Favorite Food</h3>
+          <input type="checkbox" id="food1" name="food1" value="Pizza">
+          <label for="food1">Pizza</label><br>
+          <input type="checkbox" id="food2" name="food2" value="Hamburger">
+          <label for="food2">Hamburger</label><br>
+          <input type="checkbox" id="food3" name="food3" value="Steak">
+          <label for="food3">Steak</label>
+        </div>
+        <!-- Select Element -->
+        <div>
+          <h3>Favorite Color</h3>
+          <label for="colors">Choose your favorite color:</label>
+          <select name="colors" id="colors">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </div>
+        <!-- Submit Button -->
+        <div>
+          <button type="submit">Submit form</button>
+        </div>
+      </form>
     </main>
     <footer>Copyright 2021 &copy;</footer>
   </body>
