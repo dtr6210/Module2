@@ -1,5 +1,5 @@
 # Module2
-This is for all of the exercises that will fall under Module 2 of this course.
+This is for all of the exercises that will fall under Module 2.
 
 ## Lab 2.1 - html
 
