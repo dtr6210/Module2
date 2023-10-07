@@ -1,12 +1,6 @@
 # Module2
-This is for all of the exercises that will fall under Module 2.
+This contains lab 2.1 and 2.2 of the Module 2 exercises.
 
 ## Lab 2.1 - html
 
 ## Lab 2.2 - css
-
-## Lab 2.3 - flexbox
-
-## Lab 2.4 - build your own website
-
-## Lab 2.5 - responsive website
